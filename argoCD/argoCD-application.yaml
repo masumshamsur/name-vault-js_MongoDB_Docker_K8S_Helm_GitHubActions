@@ -10,6 +10,9 @@ spec:
     repoURL: https://github.com/masumshamsur/name-vault-js.git
     targetRevision: main
     path: name-vault-js-chart
+    helms:
+      valueFiles:
+        - values.yaml
 
   destination:
     server: https://kubernetes.default.svc
