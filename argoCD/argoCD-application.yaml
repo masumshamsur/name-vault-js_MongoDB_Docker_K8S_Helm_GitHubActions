@@ -10,7 +10,7 @@ spec:
     repoURL: https://github.com/masumshamsur/name-vault-js.git
     targetRevision: main
     path: name-vault-js-chart
-    helms:
+    helm:
       valueFiles:
         - values.yaml
 
